@@ -1,0 +1,17 @@
+* {	
+	font-family: Tahoca;
+	color: #008080;
+}
+
+p {
+	text-align: justify;
+	margin-top: 20px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
