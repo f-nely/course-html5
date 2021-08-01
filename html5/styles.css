@@ -19,3 +19,8 @@ ol {
 img {
 	width: 400px;
 }
+
+iframe {
+	border: 1px solid #000;
+	width: 50%;
+}
