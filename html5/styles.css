@@ -15,3 +15,7 @@ ul {
 ol {
 	list-style-type: upper-roman;
 }
+
+img {
+	width: 400px;
+}
