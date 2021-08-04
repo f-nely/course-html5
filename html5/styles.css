@@ -40,3 +40,12 @@ a {
 a:hover {
 	background-color: #366722;
 }
+
+/* table */
+table, th, td {
+	border: 1px solid #366722;
+}
+
+th, td {
+	padding: 7px;
+}
