@@ -29,6 +29,7 @@ iframe {
 
 h1 {
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 a {
@@ -60,4 +61,17 @@ div {
 
 span {
 	color: darkolivegreen;
+}
+
+/* video */
+video {
+	width: 600px;
+	height: 600px;
+}
+
+div.video {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
 }
