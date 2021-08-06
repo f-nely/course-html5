@@ -1,8 +1,6 @@
 * {	
 	font-family: Tahoca;
 	color: #008080;
-	padding: 0;
-	margin: 0;
 }
 
 p {
@@ -74,4 +72,9 @@ div.video {
 	align-items: center;
 	justify-content: center;
 	background-color: #fff;
+}
+
+/* formulário */
+input {
+	display: block;
 }
