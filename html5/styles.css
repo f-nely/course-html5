@@ -75,6 +75,18 @@ div.video {
 }
 
 /* formulário */
+form {
+	max-width: 300px;
+}
+
 input {
 	display: block;
+	margin-top: 10px;
+}
+
+.btn-enviar {
+	padding: 10px 15px;
+	background-color: #7a8476;
+	color: #fff;
+	border: 1px solid #7a8476;
 }
