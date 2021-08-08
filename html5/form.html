@@ -5,6 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 300px;
+            margin: auto;
+            height: 400px;
+            border: 1px solid #ccc;
+        }
+
+        .input-qtd {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #cor {
+            margin-left: 10px;
+        }
+
+        .btn-enviar {
+            margin-top: 10px;
+            padding: 9px 15px;
+            background-color: #008080;
+            border: 1px solid #008080;
+            color: #fff;
+        }
+
+        .btn-enviar:hover {
+            background-color: #267e11;
+            border: 1px solid #267e11;
+        }
+    </style>
 </head>
 <body>
     <form>
@@ -34,10 +72,18 @@
             <label for="horns">Horns</label>
         </div>
 
-        <p>Quantidade</p>
+        <div>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" name="quantidade" class="input-qtd" id="quantidade" min="0" max="500" step="10">
+        </div>
 
         <div>
-            <input type="number" name="quantidade" id="quantidade" min="0" max="500" step="10">
+            <input type="range" name="quantidade" id="">
+        </div>
+
+        <div>
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor">
         </div>
 
         <div>
