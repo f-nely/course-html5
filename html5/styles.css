@@ -76,7 +76,7 @@ div.video {
 
 /* formulário */
 form {
-	max-width: 300px;
+	max-width: 400px;
 }
 
 input {
@@ -90,4 +90,9 @@ input {
 	background-color: #7a8476;
 	color: #fff;
 	border: 1px solid #7a8476;
+}
+
+select, textarea {
+	display: block;
+	margin-bottom: 10px;
 }
